@@ -1,0 +1,35 @@
+.FilterBar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 18px;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.FilterOption {
+  display: block;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 16px;
+  width: 33%;
+  text-align: center;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.active.FilterOption::after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 100px;
+  height: 4px;
+
+  background: #2f80ed;
+  border-radius: 4px 4px 0px 0px;
+  transform: translateX(-50%);
+}

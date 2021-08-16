@@ -1,0 +1,24 @@
+.DeleteTodoButton {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 120px;
+  gap: 4px;
+  padding: 16px 0;
+  background: #eb5757;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.DeleteTodoButton > * {
+  font-size: 12px;
+}
+
+.DeleteTodoButton:last-child {
+  font-weight: 600;
+}
+
+.DeleteTodoButton:active {
+  transform: scale(1.05);
+}

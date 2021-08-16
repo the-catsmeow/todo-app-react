@@ -1,0 +1,17 @@
+.TodoSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.TodoSection > * {
+  margin: 16px 0;
+}
+
+.TodoSection > button {
+  align-self: flex-end;
+}
+
+.TodoList {
+  margin: 0;
+}

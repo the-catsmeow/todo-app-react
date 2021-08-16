@@ -1,0 +1,38 @@
+.AddTodoContainer {
+  display: flex;
+  width: 100%;
+  gap: 25px;
+}
+
+.TodoTextfield {
+  outline: none;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+  flex-basis: 85%;
+  height: 56px;
+  border: 1px solid #bdbdbd;
+  border-radius: 12px;
+  padding: 0 12px;
+}
+
+.TodoTextfield:focus {
+  border: 1px solid #2f80ed;
+}
+
+.AddButton {
+  outline: none;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  width: 100px;
+  background: #2f80ed;
+  color: #fff;
+  box-shadow: 0px 2px 6px rgba(127, 177, 243, 0.4);
+  border-radius: 12px;
+}
+
+.AddButton:active {
+  transform: scale(1.05);
+}
