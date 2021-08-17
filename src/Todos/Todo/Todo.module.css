@@ -15,7 +15,7 @@
   cursor: pointer;
 }
 
-.Todo > input[type='checkbox']:checked + p {
+.Todo > input[type='checkbox']:checked + div > p {
   text-decoration: line-through;
 }
 
